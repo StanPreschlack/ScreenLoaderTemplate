@@ -1,0 +1,29 @@
+.container{
+    width: 50px;
+    margin: 50px auto;
+}
+
+.box{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: linear-gradient(#1c81de, rgba(163, 72, 199, 0.27));
+}
+
+@keyframes pulse{
+    100%{
+        opacity: 0;
+    }
+}
+.box1{
+    animation: pulse 6s ease-in infinite alternate;
+}
+.box2{
+    animation: pulse 3s ease-in infinite alternate;
+}
+.box3{
+    animation: pulse 3s ease-in infinite alternate;
+}
+.box4{
+    animation: pulse 6s ease-in infinite alternate;
+}
